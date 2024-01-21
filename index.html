@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<head>
+    <title>Yeditie的小站</title>
+    <!--采用css,写入地址"css/index.css-->
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script>
+        function func1(){
+            var t = document.getElementById('output');
+            t.hidden=true;
+        }
+        function show(){
+                var t = document.getElementById('output');//选取id为test的元素
+                t.hidden=false; 
+            }
+ 
+            function hide(){
+                var t = document.getElementById('output');//选取id为test的元素
+                t.hidden=true; // 设置隐藏元素             
+            }
+    </script>
+</head>
+<body onload="func1()" style="background-color: blanchedalmond; font-family: '黑体';">
+    <!--以下为导航栏代码！-->
+    <ul class="nav clearfix">
+        <li class="nav-li fl">
+            <!--第一层-->
+            <button onclick="show()" class="ul-button">上海地铁官网类</button>
+            <ul class="drop-box" id="output">
+                <!--第二层-->
+                <li class="drop-li">
+                    <a href="https://service.shmetro.com/lcywgz/index.htm">事故道歉书</a>
+                </li>
+                <li class="drop-li">
+                    <a href="https://service.shmetro.com/shMetro2/metro.jsp">客流量</a>
+                </li>
+                <li class="drop-li">
+                    <a href="https://service.shmetro.com/yxxlt/index.htm">线路图（无大木桥bug）</a>
+                </li>
+                <li class="drop-li">
+                    <a href="https://shmetro.com">官网</a>
+                </li>
+                <li class="drop-li">
+                    <button onclick="hide()" class="drop-li-button">收起</button>
+                </li>
+            </ul>
+        </li>
+        <li class="nav-li fl">
+            <a href="Form/Aboutus.html" class="contact">关于我们</a>
+        </li>
+        <li class="nav-li fl">
+            <a href="https://shmetrochemi.github.io/N3/" class="contact">车迷网3.0入口</a>
+        </li>
+        <li class="nav-li fl">
+            <a href="https://shmetrochemi.github.io/2/" class="contact">车迷网2.0入口</a>
+        </li>
+        <li class="nav-li fl">
+            <a href="htpps://shmetrochemi.github.io/1/" class="contact">车迷网1.0入口</a>
+        </li>
+        <li class="nav-li fl">
+            <a href="Form/Sign_in.html" class="contact">登录</a>
+        </li>
+    </ul>
+    <div style="background-image: url(image/ups.jpg); background-size:100%; background-position: center center; background-repeat: no-repeat;font-family: '黑体';">
+        <center>
+            <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</p>
+            <h1 class="h1-1">Yeditie的小站</h1>
+            <h2 class="h2-1">Welcome!</h2>
+            <h1>欢迎您的到来！</h1>
+            <h2>此站点为yedite_制作，上海市车迷网父网站</h2>
+            <h2>基于Github制作的网页</h2>
+            <a href="https://afdian.net/a/shmetro114514">
+            <button class="up-bu">点击进入我的爱发颠网址！</button>
+            <a href="https://space.bilibili.com/1374735867?spm_id_from=333.1007.0.0">
+            <button class="up-bu2">点击进入我的B站主页！</button>
+            <a href="https://github.com">
+            <button class="up-bu3">点击进入我的Github!</button></a>
+            <p style="text-align:right;">图片：广东省河源市源城区万绿湖景区（新丰江水库）</p>
+        </center>
+    </div>
+    <center><div>
+                <h1 style=>目录</h1>
+                <ul>
+                    <li>
+                        <a style="font-size: 22px;" href="#1">我的作品</a>
+                    </li>
+                    <li>
+                        <a style="font-size: 22px;" href="#2">与我合作的方式</a>
+                    </li>
+                    <li>
+                        <a style="font-size: 22px;" href="#3">Yeditie的下载站</a>
+                    </li>
+                    <li>
+                        <a style="font-size: 22px;" href="#4">我的新制作和我们创作团队的信息</a>
+                    </li>
+                </ul>
+            </div>
+    </center>
+    <center><h1 style="font-size:20px; background-color: red;" id="1">我的作品</h1>
+        <div class="div2"><a href="https://shmetrochemi.github.io/N3/">
+                <button class="button1">
+                    我的最新：上海地铁车迷网3.0版本（更新时间：2024年1月）
+                </button>
+            </a>
+            <a href="https://shmetrochemi.github.io/2/">
+                    <button class="button1">
+                        上一代作品：上海地铁车迷网2.0版本（更新时间：2022年11月
+                    </button>
+            </a>
+            <p style="font-size: 14px;">网址效果截图</p>
+            <img src="image/2.0.png" style="size:5%;">
+            <p>2.0版本截图</p>
+            <img src="image/3.0.png" style="size:5%;">
+            <p>3.0版本截图</p>
+        </div>
+    </center>
+    <center>
+        <h1 style="font-size: 20px; background-color: green;" id="2">与我合作的方式</h1>
+        <div class="div2">
+            <p style="font-size: 14px;">我的联系方式在下面，可以随时与我们合作！<br>
+            我们的官方群聊：QQ:910726973 可以随意畅谈，友好相处。我们群里可以聊关于RTM/MTR、火车、地铁（任意地方）。欢迎大家进群！</p>
+            <p class="url1">QQ群：910726973<br>
+            WEXIN：13818547494<br>
+            DingDing:加微信，我告诉你</p>
+        </div>
+    </center>
+    <center>
+        <h1 style="font-size: 20px; background-color: yellow;" id="3">Yeditie的下载站</h1>
+        <div class="div2">
+            <p style="font-size: 14px;">在这里您可以下载一些好东西！例如RTM的mod，还有RTM和前置文件的下载，还有FixRTM!</p>
+            <p>我的所有库存将由表格的形式展示！</p>
+            <table border="1">
+                <tr>
+                    <th>项目名称</th>
+                    <th>下载按钮</th>
+                </tr>
+                <tr>
+                    <td>Real Train Mod.jar 密码：RTM</td>
+                    <td><a href="https://wwle.lanzouo.com/ieilq1lsfy7c"><button class="button1">Click Me!</button></a></td>
+                </tr>
+                <tr>
+                    <td>FixRTM.jar 密码：fix
+                    </td>
+                    <td><a href="https://wwle.lanzouo.com/ieao71lsfw9c"><button class="button1">Click Me!</button></a></td>
+                </tr>
+                <tr>
+                    <td>NGTlib.jar 密码：前三个大写字母！</td>
+                    <td><a href="https://wwle.lanzouo.com/i3OsH1lsfwbe"><button class="button1">Click Me!</button></a></td>
+                </tr>
+                <tr>
+                    <td>CacPixel Alpha轨道追加包</td>
+                    <td style="background-color: red; color: aliceblue; font-size: 20px;">暂时不支持直链下载，请赞助作者"CacPixel”！ 地址：https://afdian.net/a/CacPixel 金额：34.56￥</td>
+                </tr>
+                <tr>
+                    <td>CHN中式轨道</td>
+                    <td><a href="https://wwle.lanzouo.com/ijXiw1lsfvqd"><button class="button1">Click Me!</button></a></td>
+                </tr>
+                <tr>
+                    <td>上海地铁追加包</td>
+                    <td><a href="https://wwle.lanzouo.com/i1cQu1lsg0kh"><button class="button1">Click Me!</button></a></td>
+                </tr>
+                <tr>
+                    <td>CRSC（国铁标志）</td>
+                    <td><a href="https://wwle.lanzouo.com/ik9hV1lsfvuh"><button class="button1">Click Me!</button></a></td>
+                </tr>
+            </table>
+        </div>
+    </center>
+    <center>
+        <h1 style="font-size: 20px; background-color: blueviolet;" id="4">我的新制作和我们创作团队的信息</h1>
+        <div class="div2">
+            <h2>我们最近在制作：上海地铁电显模拟器（静态）</h2>
+            <h2>关于我们：<br>
+            我们由数人组成，总部在上海市，视频在寒暑假或在长假中IP:广东/湖南。欢迎大家加入</h2>
+            <a href="#2">查看我们的联系方式和群号！</a>
+        </div>
+        <div>
+            <p style="font-size: 14pt;"><b>Yeditie制作 上海市 Vision 1.0版本 （最近更新时间：2024年1月21日）</b></p>
+            <p style="font-size: 14pt;">copyright&copy;Yeditie&and;SMFT 2011~2024</p>
+            <p style="font-size: 14pt;">邮箱：ZCY11233833@163.com 电话：13818547494 地址：上海市浦东上南路1200弄</p>
+            <p style="font-size: 14pt;">网页静态管理由<b>github公司提供</b></p>
+            <marquee bgcolor="yellow">在未经允许下，禁止直接使用此网页代码！（因为太差了，导致没有信心了:D）</marquee>
+        </div>
+    </center>
+</body>

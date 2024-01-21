@@ -1,0 +1,123 @@
+/*reset*/
+ul{
+  list-style: none;
+  padding: 0;
+  margin:0;
+  background-color:aqua; 
+  background: linear-gradient(to right, aqua, white);
+}
+li{
+  padding: 0;
+  margin: 0;
+}
+/*tool*/
+.fl{
+  float:left;
+}
+.fr{
+  float:right;
+}
+.clearfix:after{
+  content:"";
+  display:block;
+  clear:both;
+}
+/*main*/
+.nav-li .contact{
+  padding: 16px 20px;
+  color:black;
+  display:block;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 18px;
+}
+.nav-li .contact:hover{
+  color:#ffffff;
+  background-color: #404040;
+}
+.nav{
+  position: relative;
+}
+.drop-box{
+  position: absolute;
+  top:50px;
+  background-color: aquamarine;
+  min-width: 110px;
+}
+.drop-box a{
+  padding: 8px 20px;
+  color:black;
+  display: block;
+  text-decoration: none;
+  font-size: 12px;
+}
+.drop-li-button{
+  padding: 8px 20px;
+  margin: 0;
+  border: none;
+  background-color: aqua;
+}
+.ul-button{
+  padding:16px 20px;
+  margin:0;
+  background-color: aqua;
+  border: none;
+  font-size: 14px;
+}
+.h1-1{
+  font-family:"黑体";
+  color:rgb(255, 0, 0);
+  font-size:47px;
+}
+.h2-1{
+  font-family:"黑体";
+  color:white;
+  font-size:23.5px;
+}
+.up-bu{
+  font-family: "黑体";
+  margin:0;
+  border: 0;
+  font-size: 14px;
+  background-color: chocolate;
+  padding: 16px 20px;
+}
+.up-bu2{
+  font-family: "黑体";
+  margin:0;
+  border: 0;
+  font-size: 14px;
+  background-color: chocolate;
+  padding: 16px 20px;
+}
+.up-bu3{
+  font-family: "黑体";
+  margin:0;
+  border: 0;
+  font-size: 14px;
+  background-color: chocolate;
+  padding: 16px 20px;
+}
+.button1{
+  font-family: "黑体";
+  margin:0;
+  border: 0;
+  font-size: 14px;
+  background-color: rgb(30, 63, 210);
+  padding: 16px 20px;
+  color:#ffffff;
+}
+.div2{
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 2px solid rgb(0, 0, 0);
+}
+.ul2{
+  background-color: #ffffff;
+}
+.url1{
+  font-size: 20px;
+  background-color:bisque;
+
+}
